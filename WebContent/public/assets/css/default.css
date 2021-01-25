@@ -1,0 +1,16 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body, .page {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.clear {
+	clear: both;
+}

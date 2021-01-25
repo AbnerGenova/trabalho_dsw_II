@@ -1,0 +1,163 @@
+/***************VALIDATIONS STYLE****************/
+@import url('bootstrap.min.css');
+@import url('bootstrap-responsive.min.css');
+
+label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(public/assets/images/valid-icon.png) center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+label.invalid {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+label.error {
+    margin-top: 2px;
+}
+
+label.error.valid {
+    margin-left: -40px;
+    margin-top: 5px;
+}
+
+label.error {
+    font-size: 11px;
+}
+
+label.error {
+    position: absolute;
+}
+
+
+/***************STYLE PAGE****************/
+
+.notification {
+    width: 100%;
+    height: 23px;
+    background-color: #a53a3a;
+    padding: 7px 0px;
+}
+
+.notification p {
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+	padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top_texts {
+	text-align: center;
+	color: #434848;
+}
+
+.top_texts h1{
+	font-weight: 300;
+}
+
+.top_texts p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.register_form {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.rf_input {
+	display: inline-block;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+.rf_input label {
+    display: block;
+    padding: 2px 0;
+    font-weight: 600;
+    color: #434848;
+}
+
+.rf_input input {
+    font-family: 'Open Sans', arial, sans-serif;
+    width: 280px;
+    height: 35px;
+    border: 1px solid rgba(99, 99, 99, 0.32);
+    border-radius: 3px;
+    color: #434848;
+    outline: none;
+    padding: 0 10px;
+}
+
+.rf_input input:focus {
+	border: 1px solid #4FA8DA;
+}
+
+.rf_input select {
+	font-family: 'Open Sans', arial, sans-serif;
+	height: 37px;
+	border: 1px solid rgba(99, 99, 99, 0.32);
+	border-radius: 3px;
+	color: #434848;
+	padding: 5px;
+    outline: none;
+}
+
+.rf_input select:focus {
+    border: 1px solid #4FA8DA;
+}
+
+select#businessType {
+	font-family: 'Open Sans', arial, sans-serif;
+	width: 302px;
+    height: 38px;
+	border-radius: 3px;
+}
+
+.submit input {
+    background-color: #282828;
+    color: #fff;
+    font-weight: 600;
+    width: 301px;
+    text-transform: uppercase;
+    border: 1px solid #282828;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition:background 0.5s ease-out;
+    -moz-transition:background 0.5s ease-out;
+    -o-transition:background 0.5s ease-out;
+    -ms-transition:background 0.5s ease-out;
+}
+
+.submit input:hover {
+    background-color: #828282;
+    border: 1px solid #828282;
+    -webkit-transition:background 0.5s ease-out;
+    -moz-transition:background 0.5s ease-out;
+    -o-transition:background 0.5s ease-out;
+    -ms-transition:background 0.5s ease-out;
+
+}
+
+.rf_input.terms {
+    width: 46%;
+    font-size: 11px;
+    color: #434848;
+    position: relative;
+    top: 6px;
+}
+
+
+
