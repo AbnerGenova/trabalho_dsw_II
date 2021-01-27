@@ -27,21 +27,21 @@
 				<p>Cadastrar uma mercadoria no Gerpro é totalmente rápido, basta preencher os campos abaixo e você já poderá ver o produto adicionado.</p>
 			</div>
 			<div class="register_form">
-				<form action="" method="post" id="form">
+				<form action="Register" method="post" id="form">
 					<div class="control-group rf_input">
 						<label class="string" for="code">Código da mercadoria</label>
 						<input class="string" type="text" name="code" id="code" />
 					</div>
 					<div class="control-group rf_input">
 						<label class="string" for="merchandiseType">Tipo da mercadoria</label>
-						<input class="string" type="text" name="merchandiseType" id="merchandiseType" />
+						<input class="string" type="text" name="type" id="merchandiseType" />
 					</div>
 					<div class="control-group rf_input">
 						<label class="string" for="name">Nome da mercadoria</label>
 						<input class="string" type="text" name="name" id="name" />
 					</div>
 					<div class="control-group rf_input">
-						<label class="string" for="quantity">Quantidade</label>
+						<label class="string" for="quanti0ty">Quantidade</label>
 						<input class="string" type="text" name="quantity" id="quantity" />
 					</div>
 					<div class="control-group rf_input">
