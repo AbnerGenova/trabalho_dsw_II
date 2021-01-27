@@ -48,3 +48,12 @@ ul {
 .container table {
     margin-top: 50px;
 }
+
+.delete_item_button {
+	width: 20px;
+    height: 20px;
+    background-image: url(../images/trash_icon_2.svg);
+    background-repeat: no-repeat;
+    border: 0;
+    background-color: transparent;
+}

@@ -1,6 +1,6 @@
 
 public class Product {
-	private String code, type, name, quantity, price;
+	private String id, code, type, name, quantity, price;
 
 	public Product(String code, String type, String name, String quantity, String price) {
 		super();
@@ -49,5 +49,13 @@ public class Product {
 
 	public void setPrice(String price) {
 		this.price = price;
+	}
+	
+	public void setId(String id) {
+		this.id = id;
+	}
+	
+	public String getId() {
+		return id;
 	}
 }
