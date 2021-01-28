@@ -1,7 +1,7 @@
 /******************BOX ONE**********************/
 .box_one {
 	height: 100%;
-	background: linear-gradient( 45deg, rgba(105, 149, 195, 0.85), rgba(135, 211, 124, 0.55) ), url(../images/pexels-photo-147408.jpeg);
+	background: linear-gradient( 45deg, rgba(105, 149, 195, 0.95), rgba(135, 211, 124, 0.85) ), url(../images/stock-image-background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }

@@ -27,8 +27,8 @@
 					<div class="clear"></div>
 				</div>
 				<div class="global_content">
-					<h1>Plataforma de negociação de mercadorias</h1>
-					<p>Gerpro, a ferramenta na qual ajuda administrar as negociações de mercadorias</p>
+					<h1>Plataforma digital de controle de estoque</h1>
+					<p>Gerpro, a ferramenta na qual ajuda administrar o estoque do seu negócio</p>
 					<a href="merchandise-table.jsp" title="Entrar">Entrar na plataforma</a>
 				</div>
 			</div>
